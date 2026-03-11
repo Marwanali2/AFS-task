@@ -15,7 +15,7 @@ A Flutter CRUD application implementing Clean Architecture, Bloc state managemen
   - Shimmer-based skeleton loading for a better user experience.
 - **Functionality**:
   - Standard CRUD operations (Create, Read, Update, Delete).
-  - Bulk actions with multi-selection and delete support.
+  - **Multi-selection & Bulk Actions**: Users can select all items or specific items for bulk deletion.
   - Advanced filtering based on item edit status and chronological sorting.
 - **Error Handling**:
   - Centralized input validation.
@@ -126,3 +126,9 @@ Developed for the AFS Task.
   <img src="assets/screenshots/updated_items_filter_result.jpg" width="45%" alt="Filtered Results" />
 </p>
 
+### Bulk Actions Flow
+<p align="center">
+  <img src="assets/screenshots/select_all_items.jpg" width="30%" alt="Select All Items" />
+  <img src="assets/screenshots/delete_all_items_confirmation_dialog.jpg" width="30%" alt="Bulk Delete Confirmation" />
+  <img src="assets/screenshots/delete_all_items_success_result.jpg" width="30%" alt="Bulk Delete Success" />
+</p>
