@@ -87,3 +87,42 @@ flutter run
 
 ---
 Developed for the AFS Task.
+
+## Screenshots
+
+### Items Flow
+<p align="center">
+  <img src="assets/screenshots/empty_items.jpg" width="45%" alt="Empty Items View" />
+  <img src="assets/screenshots/new_item_added.jpg" width="45%" alt="Items List View" />
+</p>
+
+### Add Item Flow
+<p align="center">
+  <img src="assets/screenshots/add_item_bottom_sheet.jpg" width="45%" alt="Add Item Sheet" />
+  <img src="assets/screenshots/add_item_bottom_sheet_validation.jpg" width="45%" alt="Add Item Validation" />
+</p>
+
+### Edit Item Flow
+<p align="center">
+  <img src="assets/screenshots/edit_item_bottom_sheet.jpg" width="45%" alt="Edit Item Sheet" />
+  <img src="assets/screenshots/edit_item_validation.jpg" width="45%" alt="Edit Item Validation" />
+</p>
+
+### Success Notifications
+<p align="center">
+  <img src="assets/screenshots/add_item_success_snack_bar.jpg" width="45%" alt="Add Success Feedback" />
+  <img src="assets/screenshots/edit_item_success_snack_bar.jpg" width="45%" alt="Edit Success Feedback" />
+</p>
+
+### Filtering & Sorting
+<p align="center">
+  <img src="assets/screenshots/items_filter.jpg" width="45%" alt="Filter Bottom Sheet" />
+  <img src="assets/screenshots/newest_to_oldest_order_filter.jpg" width="45%" alt="Sorting Applied" />
+</p>
+
+### Actions & Results
+<p align="center">
+  <img src="assets/screenshots/delete_item_confirm_dialog.jpg" width="45%" alt="Delete Confirmation" />
+  <img src="assets/screenshots/updated_items_filter_result.jpg" width="45%" alt="Filtered Results" />
+</p>
+
