@@ -1,4 +1,5 @@
 import 'package:afs_task/core/theme/app_text_styles.dart';
+import 'package:afs_task/core/utils/app_validators.dart';
 import 'package:afs_task/features/item/domain/entities/item.dart';
 import 'package:flutter/material.dart';
 
@@ -143,15 +144,7 @@ class _ItemFormBottomSheetState extends State<ItemFormBottomSheet> {
                 border: OutlineInputBorder(),
               ),
               textInputAction: TextInputAction.next,
-              validator: (value) {
-                if (value == null || value.trim().isEmpty) {
-                  return 'Name is required';
-                }
-                if (value.trim().length < 3) {
-                  return 'Name must be at least 3 characters';
-                }
-                return null;
-              },
+              validator: AppValidators.validateName,
             ),
             const SizedBox(height: 12),
             TextFormField(
